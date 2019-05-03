@@ -36,7 +36,7 @@ public class AdivinadorTCP_Cliente {
 
         try {
             //creacion del socket del lado cliente se define ip y socket de destino
-            socketCliente = new Socket("localhost", 4444);//192.168.56.1
+            socketCliente = new Socket("localhost", 4444);//ingresar aqui la ip del servidor
             //Obtenemos canal de entrada
             entrada = new BufferedReader(new InputStreamReader(socketCliente.getInputStream()));
             //Obtenemos canal de salida
