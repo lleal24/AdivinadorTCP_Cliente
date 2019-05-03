@@ -19,7 +19,7 @@ import java.util.regex.Pattern;
 /**
  *
  * @author Lorena Leal ID: 208313
- *
+ *@asignatura Interconetividad
  */
 public class AdivinadorTCP_Cliente {
 
